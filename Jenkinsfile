@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git clone 'https://github.com/v-s-vish03/smart-campus-booking.git'
+                git 'https://github.com/v-s-vish03/smart-campus-booking.git'
             }
         }
         stage('Install Dependencies') {
